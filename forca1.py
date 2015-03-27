@@ -6,18 +6,24 @@ window = turtle.Screen()    # cria uma janela
 window.bgcolor("lightblue")
 window.title("Poligonos")
 
+
+w = turtle.Screen()
+t = turtle.Turtle()
+t.penup()
+t.goto(-300, -50)
+t.pendown()
+t.left(90)
+t.fd(500)
+
 from random import choice
 
-arquivo = open (')
-
-palavras=open("entrada.txt", encoding="utf-8")
-ler=palavras.redlines()
+arq=open("entrada.txt", encoding="utf-8")
 lista=[]
-for i in ler:
-    linha=i.strip()
+for linha in arq.readlines():
+    linha.strip()
     if linha!="":
         lista.append(linha)
-from random import choice
+
 sorteio = choice(lista)
 print(sorteio)
 
@@ -25,6 +31,10 @@ x=len(sorteio)
 
 for i in sorteio:
     if i =="":
-        penup()
-        fd(30)
+        t.penup()
+        t.fd(30)
+        
+        
+        
+        
         
