@@ -36,5 +36,3 @@ x=len(sorteio)
 for i in sorteio:
     if i =="":
         
-#screen = turtle.Screen()
-#letra_chutada = screen.textinput("nome da janela", "texto para exibir")
