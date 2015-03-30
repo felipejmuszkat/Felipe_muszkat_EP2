@@ -7,17 +7,6 @@ window.title("Poligonos")
 
 w = turtle.Screen()
 t = turtle.Turtle()
-t.penup()
-t.pen(shown=False)
-t.goto(-300, -50)
-t.pendown()
-t.left(90)
-t.fd(250)
-t.right(90)
-t.fd(100)
-t.right(90)
-t.fd(50)
-
 
 from random import choice
 
@@ -35,4 +24,35 @@ x=len(sorteio)
 
 for i in sorteio:
     if i =="":
+        
+
+def desenhar_forca():
+    t.penup()
+    #t.pen(shown=False)
+    t.goto(-300, -50)
+    t.pendown()
+    t.left(90)
+    t.fd(250)
+    t.right(90)
+    t.fd(100)
+    t.right(90)
+    t.fd(50)
+    
+def cabeca():
+    t.right(90)
+    t.begin_fill()
+    t.fillcolor("yellow")
+    t.circle(20)
+    t.end_fill()
+    t.penup()
+    t.goto(-200.00,110.00)
+    
+
+    
+    
+    
+    
+    
+
+
         
