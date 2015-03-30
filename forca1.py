@@ -28,7 +28,7 @@ for i in sorteio:
 
 def desenhar_forca():
     t.penup()
-    #t.pen(shown=False)
+    t.pen(shown=False)
     t.goto(-300, -50)
     t.pendown()
     t.left(90)
@@ -52,10 +52,11 @@ def corpo():
     t.pendown()
     t.fd(150)
     
-    
-    
-    
+def braco1():
+    t.penup()
+    t.goto(-200.00,80.00)
+    t.pendown()
+    t.left(45)
+    t.fd(50)    
     
 
-
-        
