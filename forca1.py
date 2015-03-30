@@ -59,4 +59,9 @@ def braco1():
     t.left(45)
     t.fd(50)    
     
+def braco2():
+    t.goto(-200.00,80.00)
+    t.right(90)
+    t.fd(50)
+        
 
