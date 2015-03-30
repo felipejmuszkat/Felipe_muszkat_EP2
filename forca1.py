@@ -70,3 +70,9 @@ def perna1():
     t.pendown()
     t.fd(50)
 
+def perna2():
+    t.penup()
+    t.goto(-200.00,-40.00)
+    t.left(90)
+    t.pendown()
+    t.fd(50)
