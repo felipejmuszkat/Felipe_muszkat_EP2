@@ -64,4 +64,9 @@ def braco2():
     t.right(90)
     t.fd(50)
         
+def perna1():
+    t.penup()
+    t.goto(-200.00,-40.00)
+    t.pendown()
+    t.fd(50)
 
