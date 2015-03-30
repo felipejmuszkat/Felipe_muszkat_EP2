@@ -47,7 +47,10 @@ def cabeca():
     t.penup()
     t.goto(-200.00,110.00)
     
-
+def corpo():
+    t.left(90)
+    t.pendown()
+    t.fd(150)
     
     
     
